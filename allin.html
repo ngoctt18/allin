@@ -268,7 +268,7 @@
         }
 
         function convertAndCopy(option) {
-            var resultText = convert(option) + '<br>';
+            var resultText = convert(option);
             document.getElementById('output' + option).value = resultText;
             copyToClipboard(resultText);
         }
